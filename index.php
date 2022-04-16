@@ -194,7 +194,7 @@ session_start();
 			<h1>Tarmica's Kitchen</h1>
 		</div>
 		<div class="site-yellow-img">
-			<img src="images/img/yellow-str.png" class="img-fluid">
+			<img src="images/orderprocess.png" class="img-fluid">
 		</div>
 		<div class="site-menu">
 			<?php
