@@ -20,11 +20,12 @@ session_start();
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<title>Tarmica's CUT Kitchen</title>
+	<title>FoodHub</title>
 	<!-- font awesome -->
   	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
   	<!-- Bootstrap -->
 	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/index.css">
 	<!-- Google font -->
 	<link href="https://fonts.googleapis.com/css2?family=Knewave&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
@@ -33,9 +34,10 @@ session_start();
 			margin: 0px;
 			padding: 0px;
 			box-sizing: border-box;
+			color: #ffffff;
 		}	
 		.main{
-			background-image: url('images/RGFYE8609.jpg');
+			background-image: url('images/IMG_E2690.jpg');
 			background-repeat: no-repeat;    
 			background-size: cover;
 			/*position: relative;*/
@@ -78,7 +80,8 @@ session_start();
 			-webkit-transform: translate(-50%);
 			transform: translate(-50%, -50%);
 			z-index: 2;
-			font-family: 'Knewave', cursive;
+			
+
 		}
 		.site-title h1{
 			font-size: 5.0rem;
@@ -185,17 +188,19 @@ session_start();
 					?><a href="ulogin/account.php" ><i class="fa fa-user" aria-hidden="true">&nbsp;</i><?php echo $data['name'] ?></a><?php
 				}
 				else{
-					?><a href="login.php" >Login/Sign up(Batika iwe bharanz)</a><?php
+					?><a href="login.php" >Login/Sign up</a><?php
 				}
 			?>
 		</div>
 		
 		<div class="site-title">
-			<h1>Tarmica's Kitchen</h1>
+		<div class="hub">
+			<span><h1>Food</h1></span>
+			<span><h1 id="hhub">hub</h1></span>
+			
 		</div>
-		<div class="site-yellow-img">
-			<img src="images/img/yellow-str.png" class="img-fluid">
 		</div>
+
 		<div class="site-menu">
 			<?php
 				if (isset($_SESSION['uid'])) 
@@ -207,7 +212,7 @@ session_start();
 				?>
 		</div>
 		<div class="site-steps">
-			<img src="images/img/steps.png" class="img-fluid">
+			<img src="images/orderprocess.png" class="img-fluid">
 		</div>
 		<div class="overlay">
 		</div>

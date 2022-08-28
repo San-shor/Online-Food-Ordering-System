@@ -12,7 +12,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title> Jhatpat Foods/Login </title>
+	<title> Backend </title>
 	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
 </head>
 <body>
@@ -20,7 +20,7 @@
 	<div class=" bg-dark pt-3 pb-3">
 		<a href="../index.php"><button type="button" class="btn btn-success ml-3" style="float:right;">HOME</button></a>
 		<a href="../login.php"><button type="button" class="btn btn-danger mr-3" style="float:left;"><< Back</button></a>
-		<h1 class="text-center text-light">JHATPAT FOODS</h1>
+		<h1 class="text-center text-light">FOODHUB</h1>
 	</div>
 	<div class="mt-5 bg-info container text-center text-white">
 		<h1>ADMIN LOGIN</h1>

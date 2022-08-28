@@ -100,7 +100,7 @@
 
 			<input type="submit" name="submit" value="Register" class="">
 
-			<h6 class="pt-3">Aleready Have an Acccount? <a href="login.php">Login</a></h6>
+			<h6 class="pt-3">Already Have an Acccount? <a href="login.php">Login</a></h6>
 		</form>
 	</div>
 	
