@@ -20,7 +20,7 @@ session_start();
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<title>Mbaita & FoodHub</title>
+	<title>FoodHub</title>
 	<!-- font awesome -->
   	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
   	<!-- Bootstrap -->
@@ -195,7 +195,7 @@ session_start();
 		
 		<div class="site-title">
 		<div class="hub">
-			<span><h1>Mbaita & Food</h1></span>
+			<span><h1>Food</h1></span>
 			<span><h1 id="hhub">hub</h1></span>
 			
 		</div>
